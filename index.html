@@ -1,208 +1,416 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <title>Andre Bakery</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Andre Bakery Homepage</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="libraries/images/andrebakery.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="libraries/style/styles.css" rel="stylesheet" />
+    </head>
 
-<!--Header-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Andre Bakery</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active a" aria-current="page" href="#">Checkout</a>
-        </li>
-<!-- Hanya Muncul Di Tampilan Desktop-->
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link active" aria-current="page" href="#">
-            <i class="fa-solid fa-cart-shopping pt-1 px-3"></i>
-          </a>
-        </li>
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link active" aria-current="page" href="#">
-            <i class="fa-solid fa-clock-rotate-left pt-1 px-3"></i>
-          </a>
-        </li>
-<!--Hanya Muncul Di Tampilan Mobile-->
-        <li class="nav-item dock d-lg-none">
-          <a class="nav-link active" aria-current="page" href="#">Keranjang</a>
-        </li>
-        <li class="nav-item d-block d-lg-none">
-          <a class="nav-link active" aria-current="page" href="#">Riwayat</a>
-        </li>
-        <li class="nav-item dock d-lg-none">
-          <a class="nav-link active" aria-current="page" href="#">Daftar</a>
-        </li>
-        <li class="nav-item dock d-lg-none">
-          <a class="nav-link active" aria-current="page" href="#">Login</a>
-        </li>
-      </ul>
-<!--Search Bar-->
-      <form class="d-flex me-auto">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-primary" type="submit">Cari</button>
-      </form>
-<!--Hanya Muncul Di Tampilan Desktop-->
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link active" aria-current="page" href="#">Daftar</a>
-        </li>
-        <li class="nav-item d-none d-lg-block">
-          <a class="nav-link active" aria-current="page" href="#">Login</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <body class="bekron">
 
-<!--Isi/Konten-->
-<div class="container">
-  <div class="row my-5">
-    <div class="col-lg-12" align="center">
-      <h1>Produk Kami</h1>
-    </div>
-  </div>
-  <div class="row g-3">
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-    <div class="col-lg-4">
-      <div class="p-3 border bg-light text-center">
-        <img src="libraries/images/kue pandan.jpg" class="img-fluid" alt="...">
-        <h3>Kue Pandan</h3>
-        <h2>Rp. 90,000</h2>
-        <a type="button" class="btn btn-primary" href="detail.html">Detail Barang</a>
-        <a type="button" class="btn btn-success" href="#">Beli Sekarang</a>
-      </div>
-    </div>
-  </div>
-</div>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#">Andre Bakery</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Akun</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#!">Riwayat</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Belanja</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">Semua Produk</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#!">Popular Items</a></li>
+                                <li><a class="dropdown-item" href="#!">New Arrivals</a></li>
+                            </ul>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Keranjang
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-<!--Footer-->
-<div class="container">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-muted">&copy; 2022 Andre Bakery dan Diffa</p>
+        <!-- Header-->
+        <header class="bg-dark py-5" style="background-image: url(libraries/images/bakery.jpg); background-repeat:no-repeat; background-position: center; background-size: cover;">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Andre Bakery</h1>
+                    <p class="lead fw-normal text-white-100 mb-0">Tempat kamu beli segala macam jenis roti rotian</p>
+                </div>
+            </div>
+        </header>
 
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-    </a>
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/kuepandan.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Kue Dadar Gulung</h5>
+                                    <!-- Product price-->
+                                    Rp. 10.000
+                                </div>
+                                <!-- Product reviews-->
+                                <div class="d-flex justify-content-center small text-warning mt-2">
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                    <div class="bi-star-fill"></div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Terlaris</div>
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/applepie.jpeg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Apple Pie</h5>
+                                    <!-- Product price-->
+                                    Rp. 18.000
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mt-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/bikaambon.jpeg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Bika Ambon</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mt-2">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/chickenpie.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Chicken Pie</h5>
+                                    <!-- Product price-->
+                                    $40.00
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mt-2">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/danishcoklat.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Danish Cokelat</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mt-2">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/danishkeju.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Danish Keju</h5>
+                                    <!-- Product price-->
+                                    $120.00 - $280.00
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mt-2">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/danishcoklatblepotan.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Danish Cokelat Blepotan</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mt-2">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top img-thumbnail" src="libraries/images/danishraisin.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Danish Raisin</h5>
+                                    <!-- Product price-->
+                                    $40.00
+                                    <!-- Product reviews-->
+                                    <div class="d-flex justify-content-center small text-warning mt-2">
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                      <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Masukkan Ke Keranjang</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy Policy</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Disclaimer</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-    </ul>
-  </footer>
-</div>
+        <!-- Footer-->
+        <footer class="bg-dark text-center text-lg-start text-white">
+            <!-- Grid container -->
+            <div class="container p-4">
+              <!--Grid row-->
+              <div class="row my-4">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        
+                  <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+                    <img src="libraries/images/andrebakery.png" height="160" alt=""
+                         loading="lazy" />
+                  </div>
+        
+                  <p class="text-center">tempat beli roti segala macam jenis di pekanbaru</p>
+        
+                  <ul class="list-unstyled d-flex flex-row justify-content-center">
+                    <li>
+                      <a class="text-white px-2" href="#!">
+                        <i class="fa-brands fa-facebook-square"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="text-white px-2" href="#!">
+                        <i class="fa-brands fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+        
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">Kategori</h5>
+        
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Lorem ipsum dolor sit amet.</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Lorem ipsum dolor sit amet.</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">Tentang Kami</h5>
+        
+                  <ul class="list-unstyled">
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>General information</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>About the shelter</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Statistic data</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Job</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Tenders</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="#!" class="text-white"><i class="fa-solid fa-bread-slice pe-2"></i>Contact</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-4">Kontak</h5>
+        
+                  <ul class="list-unstyled">
+                    <li>
+                      <p><i class="fas fa-map-marker-alt pe-2"></i>Universitas Riau</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-phone pe-2"></i>+62 233 445 69</p>
+                    </li>
+                    <li>
+                      <p><i class="fas fa-envelope pe-2 mb-0"></i>kontakkami@student.unri.ac.id</p>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+              © 2022 Copyright:
+              <a class="text-white" target="blank" href="https://github.com/IzayaDFF">Diffa dan Carlos</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/057f2a6c08.js" crossorigin="anonymous"></script>
-</body>
+        <!-- Bootstrap core JS-->
+        <script src="https://kit.fontawesome.com/057f2a6c08.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>
